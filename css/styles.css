@@ -1,0 +1,164 @@
+body {
+  font-family: "montserrat";
+}
+
+#titles {
+  background-color: #ff416d;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 0.8rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* Button */
+.download-Button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Images */
+.title-image {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  margin: 20% 20%;
+
+}
+
+/* feature section */
+#features {
+  padding: 7% 13%;
+  background-color: #fff;
+  position: relative;
+
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ff5e41;
+}
+
+.icon:hover {
+  color: #ff416d;
+}
+
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #ff416d;
+  color: white;
+  font-family: "montserrat", sans-serif;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.T-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 5%;
+}
+
+#press {
+  background-color: #ff416d;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col{
+  padding: 5% 3%;
+}
+@media (max-width: 1140px) {
+
+#titles{
+  text-align:center;
+}
+
+   .title-image{
+     position: static;
+     transform: rotate(0);
+   }
+ }
+ /* cta(call of action) */
+
+#cta{
+  background-color: #ff416d;
+  color: #fff;
+padding: 7% 15%;
+text-align: center;
+}
+
+ .cta-heading{
+   font-family: "Montserrat-black",sans-serif;
+   font-size: 3.5rem;
+
+ }
+#footer{
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.icon-footer{
+  padding: 2%;
+  color: black;
+
+}
+.icon-footer:hover{
+  color: #52baee;
+}
