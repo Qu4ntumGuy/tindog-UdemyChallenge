@@ -1,0 +1,87 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: url(img6.jpg);
+	background-size: cover;
+	background-position:all;
+}
+.container-sm
+{
+
+}
+.Login
+{
+	width: 25%;
+	top: 30%;
+	left: 40%;
+	border: 2px solid #78c4d4;
+	color: #fff;
+	position: absolute;
+	box-sizing: border-box;
+	background: #000; 
+}
+.man
+{
+	border-radius: 50%;
+	position: absolute;
+	top:-50px;
+	width: 75px;
+	height: 75px;
+	left:calc(50% - 30px);
+}
+.detail
+{
+	margin: 10px;
+	height: 80%;
+}
+h1
+{
+	text-align: center;
+	font-size: 20px;
+	margin: 50px;
+	font-family: sans-serif;
+}
+.Login p
+{
+	margin:0;
+	padding:0;
+	margin-top: 10px;
+	font-weight: bold;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+.Login input
+{
+	width: 80%;
+	height: 100%;
+	margin: 10px;
+}
+.Login input[type = "text"],input[type = "Password"]
+{
+	border: none;
+	border-bottom: 1px solid #1597bb;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	margin: 10px;
+
+}
+.Login input[type="Submit"]
+{
+	border: none;
+	outline: none;
+	height:40px;
+	background: #fff;
+	color:#1597bb;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.Login input[type = "submit"]:hover
+{
+	cursor: pointer;
+	background:#1597bb;
+	color:#fff; 
+}
